@@ -1,0 +1,10 @@
+# gRPC
+/grpc/invoice.macaroon
+/grpc/readonly.macaroon
+/grpc/tls.cert
+
+# node_modules
+/node_modules
+
+# environment
+.env
