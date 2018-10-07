@@ -2,7 +2,7 @@ const fs = require('fs')
 const grpc = require('grpc')
 process.env.GRPC_SSL_CIPHER_SUITES = 'HIGH+ECDSA'
 
-// Import dotenv to se environment variables.
+// Import dotenv to set environment variables.
 require('dotenv').load();
 
 //1. Consume invoice.macaroon.
