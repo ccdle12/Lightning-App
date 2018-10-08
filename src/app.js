@@ -6,7 +6,7 @@ process.env.GRPC_SSL_CIPHER_SUITES = 'HIGH+ECDSA'
 require('dotenv').load();
 
 //1. Consume invoice.macaroon.
-m = fs.readFileSync('../grpc/invoice.macaroon')
+m = fs.readFileSync('../grpc/' + process.env.MACAROON)
 macaroon = m.toString('hex')
 
 //2. Create metadata using the macaroon.
