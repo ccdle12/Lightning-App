@@ -3,15 +3,20 @@
 ## Setup
 ### Install dependencies
 
-``` npm i```
+``` 
+npm i
+```
 
 ### Add LND Domain
 Add LND Domain to `.env`. 
+
 Rename the file `.env.example` to `.env`. 
 
-```$ cd ./src```
+```
+$ cd ./src
 
-```LND_DOMAIN=<DOMAIN>:<RPC-PORT>```
+LND_DOMAIN=<DOMAIN>:<RPC-PORT>
+```
 
 ### Add GRPC files
 Add macaroon and tls files to `./grpc` to enable encrypted and authenticated
@@ -27,7 +32,11 @@ MACAROON=invoice.macaroon
 
 ### Run
 #### Create the dev server
-```make dev```
+```
+make dev
+```
 
 #### Open the server in the browser
-```make open```
+```
+make open
+```
